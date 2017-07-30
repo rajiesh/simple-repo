@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<cruise xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <pipelines group="group12">
+    <authorization>
+      <view>
+        <role>view</role>
+      </view>
+      <operate>
+        <user>operate</user>
+      </operate>
+    </authorization>
+    <pipeline name="no-duplicate" isLocked="false">
+      <params>
+        <param name="gocd">gocd</param>
+      </params>
+      <materials>
+        <git url="https://github.com/rajiesh/self-express.git" >
+        <filter>
+            <whitelist pattern="pages" />
+          </filter>
+          </git>
+      </materials>
+      <stage name="defaultStage">
+        <jobs>
+          <job name="defaultJob">
+            <tasks>
+              <exec command="ls">
+              </exec>
+            </tasks>
+          </job>
+        </jobs>
+      </stage>
+    </pipeline>
+  </pipelines>
+</cruise>
