@@ -2,7 +2,7 @@
   "name": "P2",
   "environment_variables": [],
   "group" : "group1",
-  template : "config-temp",
+  "template" : "config-temp",
   "materials": [
     {
       "type": "git",
