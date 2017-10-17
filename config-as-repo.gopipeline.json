@@ -10,5 +10,11 @@
       "url": "http://github.com/rajiesh/self-express.git",
       "destination": "dest"
     }
+  ],
+  "parameters": [
+    {
+      "name": "ConfigParam",
+      "value": "15.2.0"
+    }
   ]
 }
