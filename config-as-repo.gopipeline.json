@@ -20,7 +20,7 @@
   "parameters": [
     {
       "name": "ConfigParam",
-      "value": "15.2.0"
+      "value": "ParamFromConfigRepo"
     }
   ]
 }
