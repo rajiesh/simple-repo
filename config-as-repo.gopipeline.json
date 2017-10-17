@@ -1,6 +1,12 @@
 {
   "name": "P2",
-  "environment_variables": [],
+  "environment_variables": [
+   {
+      "name": "FromConfigRepo",
+      "value": "#{ConfigParam}",
+      "secure": false
+    }
+  ],
   "group" : "group1",
   "template" : "config-temp",
   "materials": [
