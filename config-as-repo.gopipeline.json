@@ -9,7 +9,7 @@
   ],
   "group" : "group1",
   "template" : "config-temp",
-  "lock_behavior" : "unlockWhenFinished"
+  "lock_behavior" : "unlockWhenFinished",
   "materials": [
     {
       "type": "git",
