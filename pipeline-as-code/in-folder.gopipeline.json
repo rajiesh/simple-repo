@@ -37,7 +37,17 @@
       			      "-version"
       			    ],
       			    "working_directory": null      
-      			}
+      			},
+            {
+             "type": "fetch",
+             "run_if": "any",
+             "pipeline": "P1",
+             "stage": "testStage",
+             "job": "build",
+             "is_source_a_file": false,
+             "source": "file.txt",
+             "destination": "file.txt"
+           }
           ]
         }
       ]
