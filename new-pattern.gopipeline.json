@@ -23,7 +23,13 @@
           "environment_variables": [],
           "tabs": [],
           "resources": [],
-          "artifacts": [],
+          "artifacts": [
+            {
+              "source": "file.txt",
+              "destination": "",
+              "type": "test"
+            }
+          ],
           "properties": [],
           "run_instance_count": null,
           "timeout": 0,
@@ -32,9 +38,9 @@
       			    "type": "exec",
       			    "run_if": "passed",
       			    "on_cancel" : null,
-      			    "command": "mvn",
+      			    "command": "touch",
       			    "arguments": [
-      			      "-version"
+      			      "file.txt"
       			    ],
       			    "working_directory": null      
       			}
