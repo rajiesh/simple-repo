@@ -49,7 +49,7 @@
              "pipeline": "P1",
              "stage": "testStage",
              "job": "build",
-             "is_source_a_file": false,
+             "is_source_a_file": true,
              "source": "file.txt",
              "destination": "file.txt"
            }
