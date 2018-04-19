@@ -10,7 +10,7 @@
       "destination": "dest"
     },{
   "pipeline": "P1",
-  "stage": "build",
+  "stage": "testStage",
   "name": "testStage",
   "type": "dependency"
 }
