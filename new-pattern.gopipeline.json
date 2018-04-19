@@ -27,7 +27,7 @@
             {
               "source": "file.txt",
               "destination": "",
-              "type": "test"
+              "type": "build"
             }
           ],
           "properties": [],
