@@ -7,7 +7,7 @@
       "secure": false
     }
   ],
-  "group" : "group1",
+  "group" : "newgroup",
   "template" : "config-temp",
   "lock_behavior" : "unlockWhenFinished",
   "materials": [
