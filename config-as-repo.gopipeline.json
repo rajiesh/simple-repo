@@ -1,5 +1,5 @@
 {
-  "name": "ALL_CAPS",
+  "name": "All_Caps",
   "environment_variables": [
    {
       "name": "FromConfigRepo",
