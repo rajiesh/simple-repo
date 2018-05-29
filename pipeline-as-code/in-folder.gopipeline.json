@@ -9,7 +9,7 @@
       "url": "http://github.com/rajiesh/self-express.git",
       "destination": "dest"
     },{
-  "pipeline": "P1",
+  "pipeline": "Pipeline1",
   "stage": "testStage",
   "name": "testStage",
   "type": "dependency"
