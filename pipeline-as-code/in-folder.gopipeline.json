@@ -46,7 +46,7 @@
             {
              "type": "fetch",
              "run_if": "any",
-             "pipeline": "P1",
+             "pipeline": "Pipeline1",
              "stage": "testStage",
              "job": "build",
              "is_source_a_file": true,
