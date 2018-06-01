@@ -3,7 +3,7 @@
   "environment_variables": [
    {
       "name": "FromConfigRepo",
-      "value": "#{ConfigParame}",
+      "value": "#{ConfigParameter}",
       "secure": false
     }
   ],
