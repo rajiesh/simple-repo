@@ -3,7 +3,7 @@
   "environment_variables": [
    {
       "name": "FromConfigRepo",
-      "value": "#{ConfigParam}",
+      "value": "#{ConfigParame}",
       "secure": false
     }
   ],
@@ -15,12 +15,12 @@
       "type": "git",
       "name": "git",
       "url": "http://github.com/rajiesh/simple-repo.git",
-      "destination": "#{ConfigParam}"
+      "destination": "#{ConfigParameter}"
     }
   ],
   "parameters": [
     {
-      "name": "ConfigParam",
+      "name": "ConfigParameter",
       "value": "ParamFromConfigRepo"
     }
   ]
