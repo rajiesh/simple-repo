@@ -3,8 +3,7 @@
   "environment_variables": [
    {
       "name": "FromConfigRepo",
-      "value": "MxoW5AQbi50=",
-      "secure": true
+      "encrypted_value": "MxoW5AQbi50="
     }
   ],
   "group" : "newgroup",
