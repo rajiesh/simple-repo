@@ -2,5 +2,5 @@
     "name" : "QA",
     "pipelines" : [ "downstream" ],
     "environment_variables" : [{"name":"name1", 
-                               "encrypted_value":"MxoW5AQbi50="}]
+                               "value":"MxoW5AQbi50="}]
 }
