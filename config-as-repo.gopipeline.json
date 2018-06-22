@@ -3,7 +3,7 @@
   "environment_variables": [
    {
       "name": "FromConfigRepo",
-      "encrypted_value": "AES:aKtla2wCW59IhiFu+esCUQ==:KjY0j1JFsdQr1nin7w64cg=="
+      "value": "test"
     }
   ],
   "group" : "newgroup",
