@@ -12,7 +12,7 @@
   "materials": [
     {
       "type": "git",
-      "name": "git",
+      "name": "gita",
       "url": "http://github.com/rajiesh/simple-repo.git",
       "destination": "#{ConfigParameter}"
     }
