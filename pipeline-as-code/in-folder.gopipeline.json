@@ -82,7 +82,7 @@
                             "store_id": "asdf",
                             "configuration": [
                                 {
-                                    "key": "tag",
+                                    "key": "Tag",
                                     "value": "${IMAGE_TAG}"
                                 },
                                 {
