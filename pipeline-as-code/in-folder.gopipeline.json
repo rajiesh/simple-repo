@@ -21,7 +21,12 @@
       "fetch_materials": true,
       "never_cleanup_artifacts": false,
       "clean_working_directory": false,
-      "environment_variables": [],
+      "environment_variables": [
+        {
+          "key": "IMAGE_TAG",
+          "value": "7-jre8"
+        }
+      ],
       "jobs": [
         {
           "name": "build",
@@ -37,9 +42,10 @@
       			    "type": "exec",
       			    "run_if": "passed",
       			    "on_cancel" : null,
-      			    "command": "mvn",
+      			    "command": "/bin/bash",
       			    "arguments": [
-      			      "-version"
+      			      "-c",
+                  "touch emptyfile.txt"
       			    ],
       			    "working_directory": null      
       			},
