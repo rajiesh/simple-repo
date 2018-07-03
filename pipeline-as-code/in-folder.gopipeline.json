@@ -53,7 +53,44 @@
              "source": "file.txt",
              "destination": "file.txt"
            }
-          ]
+          ],
+          "artifacts": [
+                        {
+                            "type": "external",
+                            "artifact_id": "asdf",
+                            "store_id": "asdf",
+                            "configuration": [
+                                {
+                                    "key": "Tag",
+                                    "value": "7"
+                                },
+                                {
+                                    "key": "Image",
+                                    "value": "localhost:5000/centos"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "external",
+                            "artifact_id": "dfgasdf",
+                            "store_id": "asdf",
+                            "configuration": [
+                                {
+                                    "key": "tag",
+                                    "value": "${IMAGE_TAG}"
+                                },
+                                {
+                                    "key": "Image",
+                                    "value": "localhost:5000/tomcat"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "build",
+                            "source": "emptyfile.txt",
+                            "destination": ""
+                        }
+                    ]
         }
       ]
     }
