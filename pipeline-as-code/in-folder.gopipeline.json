@@ -23,7 +23,7 @@
       "clean_working_directory": false,
       "environment_variables": [
         {
-          "key": "IMAGE_TAG",
+          "name": "IMAGE_TAG",
           "value": "7-jre8"
         }
       ],
