@@ -57,7 +57,7 @@
           "artifacts": [
                         {
                             "type": "external",
-                            "artifact_id": "asdf",
+                            "id": "asdf",
                             "store_id": "asdf",
                             "configuration": [
                                 {
@@ -72,7 +72,7 @@
                         },
                         {
                             "type": "external",
-                            "artifact_id": "dfgasdf",
+                            "id": "dfgasdf",
                             "store_id": "asdf",
                             "configuration": [
                                 {
