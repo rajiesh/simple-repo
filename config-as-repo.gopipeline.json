@@ -3,7 +3,7 @@
   "environment_variables": [
    {
       "name": "FromConfigRepo",
-      "encrypted_value": "OMeMQ2fiRwo="
+      "value": "OMeMQ2fiRwo="
     }
   ],
   "group" : "newgroup",
