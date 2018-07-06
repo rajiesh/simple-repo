@@ -8,7 +8,7 @@
       {
          "type":"git",
          "url":"http://github.com/rajiesh/self-express.git",
-         "name":"second",
+         "name":"material-name",
          "destination":"dest"
       },
       {
