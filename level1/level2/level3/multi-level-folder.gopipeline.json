@@ -12,12 +12,12 @@
     },
         {
             "type": "dependency",
-            "attributes": {
+
                 "pipeline": "asdf",
                 "stage": "defaultStage",
                 "name": "first",
                 "auto_update": true
-            }
+
         }
   ],
   "stages": [
