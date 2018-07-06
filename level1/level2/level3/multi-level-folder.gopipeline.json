@@ -63,9 +63,7 @@
                      "pipeline":"asdf",
                      "stage":"defaultStage",
                      "job":"defaultJob",
-                     "run_if":[  
-                        "passed"
-                     ],
+                     "run_if": "any",
                      "artifact_id":"asdf",
                      "configuration":[  
 
