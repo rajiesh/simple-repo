@@ -7,6 +7,7 @@
       "type": "git",
       "name": "git",
       "url": "http://github.com/rajiesh/self-express.git",
+      "name": "second",
       "destination": "dest"
     },
         {
