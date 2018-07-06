@@ -12,7 +12,7 @@
          "destination":"dest"
       },
       {
-         "pipeline":"asdf",
+         "pipeline":"asfgasdffg",
          "stage":"defaultStage",
          "name":"main-repo",
          "type":"dependency"
@@ -60,7 +60,7 @@
                   },{  
                      "type":"fetch",
                      "artifact_origin":"external",
-                     "pipeline":"asdf",
+                     "pipeline":"asfgasdffg",
                      "stage":"defaultStage",
                      "job":"defaultJob",
                      "run_if": "any",
