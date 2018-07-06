@@ -11,14 +11,11 @@
       "destination": "dest"
     },
         {
-            "type": "dependency",
-
-                "pipeline": "asdf",
-                "stage": "defaultStage",
-                "name": "first",
-                "auto_update": true
-
-        }
+  "pipeline": "asdf",
+  "stage": "defaultStage",
+  "name": "main-repo",
+  "type": "dependency"
+}
   ],
   "stages": [
     {
