@@ -57,30 +57,6 @@
                         "-version"
                      ],
                      "working_directory":null
-                  },
-                  {
-                     "type":"fetch",
-                     "artifact_origin":"external",
-                     "pipeline":"asdf",
-                     "stage":"defaultStage",
-                     "job":"defaultJob",
-                     "run_if":[
-                        "passed"
-                     ],
-                     "on_cancel":{
-                        "type":"exec",
-                        "attributes":{
-                           "run_if":[
-
-                           ],
-                           "command":"ls",
-                           "args":""
-                        }
-                     },
-                     "artifact_id":"asdf",
-                     "configuration":[
-
-                     ]
                   }
                ]
             }
