@@ -59,7 +59,7 @@
                      "working_directory":null
                   },{  
                      "type":"fetch",
-                     "origin":"external",
+                     "artifact_origin":"external",
                      "pipeline":"asdf",
                      "stage":"defaultStage",
                      "job":"defaultJob",
