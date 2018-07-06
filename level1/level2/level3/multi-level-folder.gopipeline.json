@@ -47,7 +47,7 @@
       			},
                         {
                             "type": "fetch",
-                            "attributes": {
+
                                 "artifact_origin": "external",
                                 "pipeline": "asdf",
                                 "stage": "defaultStage",
@@ -65,7 +65,7 @@
                                 },
                                 "artifact_id": "asdf",
                                 "configuration": []
-                            }
+
                         }
           ]
         }
