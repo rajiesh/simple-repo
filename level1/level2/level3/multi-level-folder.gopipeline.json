@@ -8,7 +8,16 @@
       "name": "git",
       "url": "http://github.com/rajiesh/self-express.git",
       "destination": "dest"
-    }
+    },
+        {
+            "type": "dependency",
+            "attributes": {
+                "pipeline": "asdf",
+                "stage": "defaultStage",
+                "name": "first",
+                "auto_update": true
+            }
+        }
   ],
   "stages": [
     {
@@ -37,7 +46,29 @@
       			      "-version"
       			    ],
       			    "working_directory": null      
-      			}
+      			},
+                        {
+                            "type": "fetch",
+                            "attributes": {
+                                "artifact_origin": "external",
+                                "pipeline": "asdf",
+                                "stage": "defaultStage",
+                                "job": "defaultJob",
+                                "run_if": [
+                                    "passed"
+                                ],
+                                "on_cancel": {
+                                    "type": "exec",
+                                    "attributes": {
+                                        "run_if": [],
+                                        "command": "ls",
+                                        "args": ""
+                                    }
+                                },
+                                "artifact_id": "asdf",
+                                "configuration": []
+                            }
+                        }
           ]
         }
       ]
