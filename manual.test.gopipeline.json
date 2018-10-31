@@ -1,0 +1,30 @@
+{
+  "name": "all_caps1",
+  "environment_variables": [
+   {
+      "name": "FromConfigRepo",
+      "value": "OMeMQ2fiRwo="
+    }
+  ],
+  "group" : "newgroup",
+  "template" : "config-temp",
+  "lock_behavior" : "unlockWhenFinished",
+  "materials": [
+    {
+      "type": "git",
+      "name": "gita",
+      "url": "http://github.com/rajiesh/simple-repo.git",
+      "destination": "sdf"
+    }
+  ],
+  "parameters": [
+    {
+      "name": "ConfigParameter",
+      "value": "ParamFomConfigRepo"
+    },
+    {
+      "name": "storeID",
+      "value": "asdf"
+    }
+  ]
+}
