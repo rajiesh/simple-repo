@@ -1,7 +1,7 @@
 environments:
   example:
     environment_variables:
-      EXAMPLE_DEPLOYMENT: testing
+      EXAMPLE_DEPLOYMENT: testing1
     pipelines:
       - yaml-example
 pipelines:
